@@ -7,3 +7,15 @@ build/
 .DS_Store
 .env
 *.log
+
+# Frontend build
+dist
+dist-ssr
+*.local
+
+# Tauri
+src-tauri/target
+
+# Editor
+.vscode/*
+!.vscode/extensions.json

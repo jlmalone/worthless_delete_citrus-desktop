@@ -1,0 +1,78 @@
+.webcam-capture {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.webcam-controls {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+.webcam-controls button {
+  min-width: 150px;
+}
+
+.webcam-display {
+  background: #000;
+  border-radius: 8px;
+  overflow: hidden;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-container {
+  width: 100%;
+  position: relative;
+  background: #1a1a1a;
+}
+
+.video-container video {
+  width: 100%;
+  display: block;
+}
+
+.video-container video.inactive {
+  display: none;
+}
+
+.placeholder {
+  padding: 100px 20px;
+  text-align: center;
+  color: #aaa;
+}
+
+.placeholder p {
+  font-size: 1.2rem;
+}
+
+.captured-image-container {
+  width: 100%;
+  background: #000;
+}
+
+.captured-image-container img {
+  width: 100%;
+  display: block;
+}
+
+.save-controls {
+  padding: 20px;
+  background: white;
+}
+
+.save-controls input {
+  margin-bottom: 15px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.button-group button {
+  flex: 1;
+}
